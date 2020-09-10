@@ -4,20 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-    <div class="name">
-        <h1 id=nameChange>Brian</h1>
-        <div id="links">
-            <ul>
-                <li class="fb">Facebook</li>
-                <li class="lin">LinkedIn</li>
-                <li class="email">brian@gmail.com</li>
-                <li class="phone">559-555-5555</li>
-            </ul>
+    <div id="topmenu" class="dropdown float-right">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
         </div>
     </div>
+    <div class="name container-fluid">
+        <h1 id=nameChange>Brian</h1>
+        <div>
+            <ul class="nav">
+                <li class="nav-item justify-content-center">
+                <a class="nav-link active" href="#">Facebook</a>
+                </li>
+                <li class="nav-item justify-content-end">
+                <a class="nav-link" href="#">555-555-5555</a>
+                </li>
+            </ul>
+        </div>  
+        <div>
+            <ul class="nav">
+                <li class="nav-item justify-content-center">
+                <a class="nav-link" href="#">LinkedIn</a>
+                </li>
+                <li class="nav-item justify-content-end">
+                <a class="nav-link" href="mailto:">brian@gmail.com</a>
+                </li>
+            </ul>
+        </div>  
+    </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>
 </html>

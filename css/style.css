@@ -1,0 +1,19 @@
+.nav{
+    list-style: none;
+    padding: 0%;
+    
+}
+
+.dropdown{
+    margin: 10px;
+    font-weight: bold;
+}
+
+li{
+    text-align:center;
+}
+
+#nameChange{
+    padding:3% 5% 2% 4%;
+    font-size: 80px;
+}
