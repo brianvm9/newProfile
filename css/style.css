@@ -2,11 +2,18 @@ body{
     background-color:rgb(209,209,209);
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
 .nav{
     list-style: none;
     padding: 0%;
 }
 
+.pics-top{
+    margin-bottom: 5%;
+}
 
 .dropdown{
     margin: 10px;
