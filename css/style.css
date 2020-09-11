@@ -1,8 +1,12 @@
+body{
+    background-color:rgb(209,209,209);
+}
+
 .nav{
     list-style: none;
     padding: 0%;
-    
 }
+
 
 .dropdown{
     margin: 10px;
@@ -13,7 +17,15 @@ li{
     text-align:center;
 }
 
-#nameChange{
-    padding:3% 5% 2% 4%;
+#name{
     font-size: 80px;
+}
+
+.dark{
+    background-color:rgb(33, 33, 33);
+    color: rgb(189,133,248);
+}
+
+#theme{
+    background-color: #fff;
 }
