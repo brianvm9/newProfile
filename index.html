@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body id="theme" class="container-fluid">
+    <header class="container-fluid">
+
+    </header>
     <div id="topmenu" class="container-fluid dropdown">
         <button id="label" class="btn btn-secondary dropdown-toggle label" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Light or Dark?
@@ -17,51 +20,23 @@
           <button class="dropdown-item light" onclick="selectMode('light')">Light Mode</button>
         </div>
     </div>
-    <div class="container text-center">
-        <h1 id="name" class="d-flex justify-content-center">Light</h1>
-    </div> 
-    <div class="container pics-top">
-        <div class="row">
-            <div class="lake col img-fluid">
-                <img src="img/lake.jpg" alt="">
-            </div>
-            <div class="col img-fluid">
-                <img src="img/doge.jpg" alt="">
-            </div>
-            <div class="col img-fluid">
-                <img src="img/cardoge.jpg" alt="">
-            </div>
-        </div>
-    </div>  
-    <div class="container">
-        <div class="row">
-            <div class="col img-fluid">
-                <img src="img/livingroom.jpg" alt="">
-            </div>
-            <div class="col img-fluid">
-                <img src="img/mountain.jpg" alt="">
-            </div>
-            <div class="col img-fluid">
-                <img src="img/plants.jpg" alt="">
-            </div>
-        </div>
-    </div>  
-        <div class="d-flex justify-content-center">
-            <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Facebook</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">555-555-5555</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">LinkedIn</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="mailto:">nobody@gmail.com</a>
-                </li>
-            </ul>
-        </div>  
+    <div class="container d-flex justify-content-between">
+        <img id="logo" class="d-flex img-fluid" src="img/astrodesigns.png">
+        <ul id="nav" class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link3</a>
+            </li>
+          </ul>
+    </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>

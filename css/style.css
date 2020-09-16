@@ -1,5 +1,17 @@
-body{
-    background-color:rgb(209,209,209);
+
+ul>li>a:hover{
+    color:rgb(255,255,255);
+}
+ul>li>a{
+    color:rgb(33,33,33);
+}
+
+
+.hoverClass1:hover{
+    color:rgb(255,255,255);
+}
+.hoverclass2:hover{
+    color: (33,33,33);
 }
 
 img{
@@ -34,5 +46,11 @@ li{
 }
 
 #theme{
-    background-color: #fff;
+    background-color:rgb(209,209,209);
+    color: rgb(33,33,33);
+}
+
+#logo{
+    height:200px;
+    width: 200px;
 }
