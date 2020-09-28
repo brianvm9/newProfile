@@ -1,9 +1,9 @@
 
 ul>li>a:hover{
-    color:rgb(255,255,255);
+    background-color:rgb(33,33,33) ;
 }
 ul>li>a{
-    color:rgb(33,33,33);
+    color:rgb(255,255,255);
 }
 
 img{
@@ -38,8 +38,8 @@ li{
 }
 
 #theme{
-    background-color:rgb(209,209,209);
-    color: rgb(33,33,33);
+    background-color:rgb(33,33,33);
+    color:rgb(209,209,209);
 }
 
 #logo{
